@@ -272,12 +272,12 @@ const sidebarItem: menu[] = [
   {
     title: "Typography",
     icon: "text-circle-outline",
-    to: "/ui/typography",
+    to: "/utilities/typography",
   },
   {
     title: "Shadow",
     icon: "watch-square-minimalistic-charge-line-duotone",
-    to: "/ui/shadow",
+    to: "/utilities/shadow",
   },
 
   { header: "Pages" },
@@ -358,7 +358,26 @@ const sidebarItem: menu[] = [
   },
 
   { header: "ui" },
-
+  {
+    title: "Alert",
+    icon: "volume-small-broken",
+    to: "/ui/alerts",
+  },
+  {
+    title: "Button",
+    icon: "tag-horizontal-outline",
+    to: "/ui/buttons",
+  },
+  {
+    title: "Cards",
+    icon: "cardholder-linear",
+    to: "/ui/cards",
+  },
+  {
+    title: "Tables",
+    icon: "suspension-outline",
+    to: "/ui/tables",
+  },
   {
     title: "Ui Elements",
     icon: "code-scan-line-duotone",
@@ -716,8 +735,6 @@ const sidebarItem: menu[] = [
       },
     ],
   },
-
-
 ];
 
 export default sidebarItem;
