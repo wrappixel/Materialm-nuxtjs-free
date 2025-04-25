@@ -101,7 +101,7 @@ const preview_link = [
                 class="border-blue text-surface text-h6 font-weight-medium"
                 v-bind="props"
               >
-                <span class="d-flex gap-2">
+                <span class="d-flex ga-2">
                   Live Preview <ChevronDownIcon size="20" />
                 </span>
               </v-btn>

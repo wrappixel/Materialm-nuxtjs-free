@@ -66,7 +66,7 @@ const chartOptions = computed(() => {
                     <v-card-title class="text-h6 textSecondary font-weight-medium mb-0">Total Income</v-card-title>
                 </div>
 
-                <v-btn flat icon variant="text" rounded="full" class="">
+                <v-btn flat icon variant="text" rounded="pill" height="40" width="40">
                     <v-avatar size="22">
                         <DotsVerticalIcon size="20" color="grey100" />
                     </v-avatar>

@@ -13,7 +13,7 @@ const items = ref([{ title: 'Action' }, { title: 'Another action' }, { title: 'S
                 <v-card-title class="text-h5 mb-0">Earning Reports</v-card-title>
                 <v-menu bottom left>
                     <template v-slot:activator="{ props }">
-                        <v-btn icon color="inherit" v-bind="props" flat size="small">
+                        <v-btn icon color="inherit" v-bind="props" flat size="small" rounded="pill" height="40" width="40">
                             <DotsVerticalIcon stroke-width="1.5" size="23" class="textSecondary" />
                         </v-btn>
                     </template>
@@ -43,7 +43,7 @@ const items = ref([{ title: 'Action' }, { title: 'Another action' }, { title: 'S
                     </div>
                 </v-col>
             </v-row>
-            <div class="pt-10 pb-2 text-center custom-text-primary">
+            <div class="pt-8 pb-2 text-center custom-text-primary">
                  <RouterLink to="" class="text-decoration-none text-h6 textPrimary font-weight-medium custom-title">View more markets</RouterLink>
             </div>
         </v-card-item>
