@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { onMounted, ref, shallowRef, watch } from "vue";
 import sidebarItems from "@/components/Layout/Full/vertical-sidebar/sidebarItem";
-import { Icon } from '@iconify/vue';
+import { Icon } from "@iconify/vue";
 // Icon Imports
 import { Menu2Icon, BellRingingIcon } from "vue-tabler-icons";
 import { LayoutFullVerticalHeaderNotificationDD } from "#components";
@@ -32,7 +32,7 @@ watch(mdAndDown, (val) => {
     <!---Navigation -->
     <!-- ---------------------------------------------- -->
     <perfect-scrollbar class="scrollnavbar bg-containerBg overflow-y-hidden">
-      <v-list class=" px-4 bg-containerBg">
+      <v-list class="px-4 bg-containerBg">
         <!---Menu Loop -->
         <template v-for="(item, i) in sidebarMenu">
           <!---Item Sub Header -->
@@ -69,7 +69,7 @@ watch(mdAndDown, (val) => {
               <h6 class="text-h6 text-10 mb-3">Check Pro Version</h6>
               <v-btn
                 target="_blank"
-                href="https://www.wrappixel.com/templates/materialm-vuetify-nuxt-js-admin-template/?ref=376#demos"
+                href="https://wrappixel.com/templates/materialm-vuetify-nuxt-js-admin-template/?ref=376#demos"
                 color="primary"
                 class="px-5"
                 rounded="pill"
@@ -91,24 +91,34 @@ watch(mdAndDown, (val) => {
     </perfect-scrollbar>
   </v-navigation-drawer>
 
-
-   <!------Header-------->
-    <v-app-bar elevation="0" height="70" class="bg-background top-header px-5">
-        <div class="d-flex align-center justify-space-between w-100">
-            <div>
-                <v-btn class="hidden-lg-and-up text-muted" @click="sDrawer = !sDrawer" icon variant="flat" size="small">
-                    <Icon icon="solar:hamburger-menu-outline" height="22"></Icon>
-                </v-btn>
-                <!-- Notification -->
-                <LayoutFullVerticalHeaderNotificationDD/>
-            </div>
-            <div>
-                <!-- Upgrade button -->
-                <v-btn class="mr-2 bg-primary" rounded="pill" href="https://www.wrappixel.com/templates/materialm-vuetify-nuxt-js-admin-template/?ref=376#demos" target="_blank">Check Pro Template</v-btn>
-                <!-- User Profile -->
-                <LayoutFullVerticalHeaderProfileDD/>
-            </div>
-        </div>
-    </v-app-bar>
-  
+  <!------Header-------->
+  <v-app-bar elevation="0" height="70" class="bg-background top-header px-5">
+    <div class="d-flex align-center justify-space-between w-100">
+      <div>
+        <v-btn
+          class="hidden-lg-and-up text-muted"
+          @click="sDrawer = !sDrawer"
+          icon
+          variant="flat"
+          size="small"
+        >
+          <Icon icon="solar:hamburger-menu-outline" height="22"></Icon>
+        </v-btn>
+        <!-- Notification -->
+        <LayoutFullVerticalHeaderNotificationDD />
+      </div>
+      <div>
+        <!-- Upgrade button -->
+        <v-btn
+          class="mr-2 bg-primary"
+          rounded="pill"
+          href="https://wrappixel.com/templates/materialm-vuetify-nuxt-js-admin-template/?ref=376#demos"
+          target="_blank"
+          >Check Pro Template</v-btn
+        >
+        <!-- User Profile -->
+        <LayoutFullVerticalHeaderProfileDD />
+      </div>
+    </div>
+  </v-app-bar>
 </template>
