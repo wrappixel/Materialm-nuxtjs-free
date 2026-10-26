@@ -170,7 +170,7 @@ The **Free Version** of the **MaterialM Vuetify NuxtJs Admin Template** provides
          </td>
          <td>
             <a href="https://wrappixel.com/templates/materialm-next-js-tailwind-dashboard-template/?ref=376" width="150px">
-             <img src="httphttps://images.wrappixel.com/templates/pro/materialm/MaterialM-NextJS.webp" alt="materialM-next-admin-template" style="max-width:140px;">
+             <img src="https://images.wrappixel.com/templates/pro/materialm/MaterialM-NextJS.webp" alt="materialM-next-admin-template" style="max-width:140px;">
             </a>
          </td>
       </tr>
